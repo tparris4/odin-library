@@ -16,14 +16,54 @@
     <header class="header">
         <span class="logo">Odin Library</span>
     </header>
+<button class="addBtn">Add Book</button>
+<!--
+    Displays adding form when clicked
+-->
+<section class="formDisplay">
+    <section class="partOne">
+        <h3 class="partOneTitle">New Book</h3>
+    </section>
+
+    <section class="partTwo">
+        <form id="form" name="add-form" class="input-form" method="get" action="#">
+            <section class="form-container">
+                <label for="Title">Book Title</label>
+                <input type="text" class="bookTitie" required>
+            </section>
+            <section class="form-container">
+                <label for="Author">Author</label>
+                <input type="text" class="bookAuthor" required>
+            </section>
+            <section class="form-container">
+                <label for="ISBN">ISBN</label>
+                <input type="number" class="bookISBN" required>
+            </section>
+            <section class="form-container">
+                <label for="Pages">Pages</label>
+                <input type="number" class="bookPages" required>
+            </section>
+            <input class="submitBtn" type="submit" value="Add">
+
+        </form>
+    </section>
+
+
+
+
+</section>
 
 <section class="cardContainer">
+    <div class="book-cards">
 
-</section>
-<section class="footer">
-    <p>This is a project made through <a href="theodinproject.com">TheOdinProject</a> </p>
-</section>
     </div>
+</section>
+
+    </div>
+    <footer class="footer">
+        <p>This is a project made through <a href="theodinproject.com">TheOdinProject</a> </p>
+    </footer>
     <script src="script.js" defer></script>
 </body>
+
 </html>
